@@ -1,0 +1,15 @@
+doctype html
+html
+	head
+		title = @title
+
+	body
+		#wrap
+			header
+				h1 = @title
+
+			section{id='mainContent'}
+				 = yield
+
+			footer
+
